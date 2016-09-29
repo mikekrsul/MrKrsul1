@@ -4,5 +4,4 @@
       <block type="movement_left" id="240"></block>
     </next>
   </block>
-  <block type="movement_forward" id="250" x="250" y="140"></block>
 </xml>
