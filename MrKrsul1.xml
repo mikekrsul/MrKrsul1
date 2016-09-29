@@ -1,3 +1,6 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="movement_forward" id="142" x="201" y="134"></block>
+  <block type="math_arithmetic" id="392" inline="true" x="198" y="160">
+    <field name="OP">ADD</field>
+  </block>
 </xml>
