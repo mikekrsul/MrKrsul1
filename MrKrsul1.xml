@@ -4,4 +4,7 @@
       <block type="movement_left" id="240"></block>
     </next>
   </block>
+  <block type="math_number" id="284" x="140" y="143">
+    <field name="NUM">1</field>
+  </block>
 </xml>
