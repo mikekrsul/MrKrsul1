@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="10" x="292" y="158">
+  <block type="movement_forward" id="10" x="325" y="122">
     <next>
       <block type="movement_forward" id="20">
         <next>
@@ -11,23 +11,7 @@
                     <next>
                       <block type="movement_stop" id="61">
                         <next>
-                          <block type="movement_stop" id="71">
-                            <next>
-                              <block type="movement_forward" id="81">
-                                <next>
-                                  <block type="movement_forward" id="91">
-                                    <next>
-                                      <block type="movement_forward" id="101">
-                                        <next>
-                                          <block type="movement_forward" id="111"></block>
-                                        </next>
-                                      </block>
-                                    </next>
-                                  </block>
-                                </next>
-                              </block>
-                            </next>
-                          </block>
+                          <block type="movement_stop" id="71"></block>
                         </next>
                       </block>
                     </next>
