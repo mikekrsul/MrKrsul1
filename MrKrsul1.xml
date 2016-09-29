@@ -3,10 +3,13 @@
     <next>
       <block type="movement_forward" id="20">
         <next>
-          <block type="movement_forward" id="30"></block>
+          <block type="movement_forward" id="30">
+            <next>
+              <block type="movement_stop" id="121"></block>
+            </next>
+          </block>
         </next>
       </block>
     </next>
   </block>
-  <block type="movement_stop" id="121" x="360" y="283"></block>
 </xml>
