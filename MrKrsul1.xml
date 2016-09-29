@@ -1,11 +1,7 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="movement_forward" id="142" x="225" y="209">
     <next>
-      <block type="robot_delay" id="164" inline="true">
-        <next>
-          <block type="movement_stop" id="162"></block>
-        </next>
-      </block>
+      <block type="movement_setmotors" id="205" inline="true"></block>
     </next>
   </block>
 </xml>
