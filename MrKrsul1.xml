@@ -1,19 +1,14 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="1" x="201" y="134">
+  <block type="movement_forward" id="384" x="175" y="75">
     <next>
-      <block type="oled_setend" id="275" inline="true">
-        <value name="ENDX">
-          <block type="math_number" id="306">
-            <field name="NUM">1</field>
-          </block>
-        </value>
-        <value name="ENDY">
-          <block type="math_number" id="345">
-            <field name="NUM">3</field>
+      <block type="robot_delay" id="407" inline="true">
+        <value name="DELAY">
+          <block type="math_number" id="414">
+            <field name="NUM">5000</field>
           </block>
         </value>
         <next>
-          <block type="movement_leftmotor" id="355" inline="true"></block>
+          <block type="movement_stop" id="424"></block>
         </next>
       </block>
     </next>
