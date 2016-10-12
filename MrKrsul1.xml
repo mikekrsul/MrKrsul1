@@ -1,3 +1,9 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="1" x="201" y="134"></block>
+  <block type="movement_forward" id="1" x="201" y="134">
+    <next>
+      <block type="comment_comment" id="16">
+        <field name="TEXT">30</field>
+      </block>
+    </next>
+  </block>
 </xml>
