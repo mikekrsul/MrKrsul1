@@ -1,11 +1,7 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="movement_forward" id="1" x="201" y="134">
     <next>
-      <block type="movement_stop" id="202">
-        <next>
-          <block type="movement_forward" id="212"></block>
-        </next>
-      </block>
+      <block type="movement_stop" id="202"></block>
     </next>
   </block>
 </xml>
