@@ -12,6 +12,9 @@
             <field name="NUM">3</field>
           </block>
         </value>
+        <next>
+          <block type="movement_leftmotor" id="355" inline="true"></block>
+        </next>
       </block>
     </next>
   </block>
