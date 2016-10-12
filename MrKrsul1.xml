@@ -1,8 +1,11 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="movement_forward" id="1" x="201" y="134">
     <next>
-      <block type="comment_comment" id="50">
-        <field name="TEXT">2cm</field>
+      <block type="comment_comment" id="109">
+        <field name="TEXT">5</field>
+        <next>
+          <block type="movement_stop" id="120"></block>
+        </next>
       </block>
     </next>
   </block>
